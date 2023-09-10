@@ -11,8 +11,8 @@ platforms:
     link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
 
   - type: Telegram
-    icon: "fab fa-telegram"
-    link: "https://t.me/share/url?url=URL&text=TITLE"
+    icon: "fab fa-whatsapp"
+    link: "https://wa.me/?text=URL"
 
   # Uncomment below if you need to.
   #
