@@ -10,7 +10,7 @@ img_path: '/posts/20180809'
 
 ## Palavras-chave
 
-Palavras-chave são identificadores reservados pelo compilador que têm um significado especial e são traduzidos diretamente para instruções de código de máquina. Por tando não é possível utilizá-las como nome da variáveis
+As palavras-chave são identificadores reservados pelo compilador que têm um significado especial e são traduzidos diretamente em instruções de código de máquina. Portanto, não é possível utilizá-las como nome de variáveis.
 
 ```c#
 int void = 42; // Error CS1547 Keyword 'void' cannot be used in this context
@@ -19,7 +19,7 @@ int foreach = 42; // Error CS1519: Invalid token 'foreach' in class, struct, or 
 
 ### Palavras-chave contextuais
 
-Palavras-chave contextuais também conhecidas como identificadores contextualmente reservados, são identificadores que têm significado em um contexto específico do programa, mas não são reservados pelo compilador. Isso significa que você pode usá-las como nomes de variáveis, métodos ou nome de classes.
+As palavras-chave contextuais, também conhecidas como identificadores contextualmente reservados, são identificadores que têm significado em um contexto específico do programa, mas não são reservadas pelo compilador. Isso significa que você pode usá-las como nomes de variáveis, métodos ou nomes de classes.
 
 
 ```c#
@@ -27,6 +27,6 @@ string descending = "descendente";
 string join = "juntar";
 ```
 
-Porém, usar palavras-chaves contextuais como nome de variável pode não ser uma boa ideia e pode um [code smell](https://en.wikipedia.org/wiki/Code_smell){:target="_blank"} (algo não cheira bem no seu código) e dificultar manutembilidade, depuração e entendimento por partes de equipes novas no seu projeto. 
+No entanto, utilizar palavras-chave contextuais como nomes de variáveis pode não ser uma boa ideia e pode ser considerado um [code smell](https://en.wikipedia.org/wiki/Code_smell){:target="_blank"} (algo que não parece certo em seu código), dificultando a manutenção, depuração e compreensão por parte de equipes novas em seu projeto.
 
-Para obter uma lista completa de palavras-chave e Palavras-chave contextuais, consulte a documentação [Palavras-chave C#](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/)
+Para obter uma lista completa de palavras-chave e palavras-chave contextuais, consulte a documentação das [Palavras-chave C#](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/).
