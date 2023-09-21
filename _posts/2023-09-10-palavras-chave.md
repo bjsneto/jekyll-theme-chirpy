@@ -29,4 +29,4 @@ string join = "juntar";
 
 No entanto, utilizar palavras-chave contextuais como nomes de variáveis pode não ser uma boa ideia e pode ser considerado um [code smell](https://en.wikipedia.org/wiki/Code_smell){:target="_blank"} (algo que não parece certo em seu código), dificultando a manutenção, depuração e compreensão por parte de equipes novas em seu projeto.
 
-Para obter uma lista completa de palavras-chave e palavras-chave contextuais, consulte a documentação das [Palavras-chave C#](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/).
+Para obter uma lista completa de palavras-chave e palavras-chave contextuais, consulte a documentação das [Palavras-chave C#](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/){:target="_blank"}.
