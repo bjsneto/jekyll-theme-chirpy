@@ -3,7 +3,7 @@ title: Palavras-chave vs Palavras-chave contextuais
 author: bjsneto
 date: 2023-09-10 20:55:00 +0800
 categories: [Blogging, Tutorial]
-tags: [palavras-chave c# .NET]
+tags: [palavras-chave, C#, .NET, CSharp]
 pin: true
 img_path: '/posts/20180809'
 ---
